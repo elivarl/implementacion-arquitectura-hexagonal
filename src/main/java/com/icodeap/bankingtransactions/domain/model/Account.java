@@ -49,6 +49,14 @@ public class Account {
         return Collections.unmodifiableList(this.transactions);
     }
 
+    public AccountId getId() {
+        return id;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
     public Money getBalance() {
         return balance;
     }
