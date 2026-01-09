@@ -46,7 +46,7 @@ public class Account {
     }
 
     public  List<Transaction> getTransactions(){
-        return Collections.unmodifiableList(this.transactions);
+        return this.transactions;
     }
 
     public AccountId getId() {
